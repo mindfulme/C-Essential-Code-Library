@@ -6,8 +6,6 @@
 #include <conio.h>                 //include the debug library
 using namespace std;
         // Let`s move out!
-// static variable example
-// static initializes only once!!!!!!!!!
 class Array {
 	int *values;
 	int  size;
