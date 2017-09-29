@@ -13,19 +13,21 @@ int main()
 {
 
 	int ink = 1;
-	float x0, x, y0, y, z0, z, c, k;			    //coordinates * координаты
+	float x0, x, y0, y, z0, z, c, k,x1,y1,z1;			    //coordinates * координаты
 	system("Color 2");	// f0 - white and black		// change text and background color of console * цвета для фона, текста
 	while (ink == 1) {                          // loop for inputing without exiting command line * Ввод след. без закрытия консоли 
 		cout << "Choise one statement which you need to solve (1-7)" << endl;
 		cout << " " << endl;
-		cout << "1: General equation of line Ax+By+C=0" << endl;												   // Загальне рівняня прямої
-		cout << "2: Equation of line using line segments x/a+y/b=1 " << endl;								       // Векторне рівняня прямої  у відрізках
-		cout << "3: Equation of line with angle coefficient y=kx+b" << endl;							           //  Рівняня прямої з кутовим коефіціентом k
-		cout << "4: Equation of line going through 2 points (x-x1)/(x2-x1)=(y-y1)/(y2-y1)" << endl;			       // Відстань від точки до прямої
-		cout << "5: Normal equation of line x*cos(a)+y*sin(a)-p=0" << endl;										   // Нормальне рівнянян прямої
-		cout << "6: Equation of line with parameters x=x1+a*(lambda)" << "  y=y1+b*(lambda)" << endl;			   // Параметричне рівняня прямої
-		cout << "7: Equation of line in the open space" << endl;                                                   // Рівняня прямої в просторі, що проходить через 2 точки
-		cout << "8: Angle between plane and line (alpha)" << endl;
+		cout << "1: General equation of line Ax+By+C=0" << endl;												   //1: Загальне рівняня прямої 
+		cout << "2: Equation of line using line segments x/a+y/b=1 " << endl;								       //2: Векторне рівняня прямої  у відрізках
+		cout << "3: Equation of line with angle coefficient y=kx+b" << endl;							           //3:  Рівняня прямої з кутовим коефіціентом k
+		cout << "4: Equation of line going through 2 points (x-x1)/(x2-x1)=(y-y1)/(y2-y1)" << endl;			       //4: Відстань від точки до прямої
+		cout << "5: Normal equation of line x*cos(a)+y*sin(a)-p=0" << endl;										   //5: Нормальне рівнянян прямої
+		cout << "6: Equation of line with parameters x=x1+a*(lambda)" << "  y=y1+b*(lambda)" << endl;			   //6: Параметричне рівняня прямої
+		cout << "7: Equation of line in the open space" << endl;                                                   //7: Рівняня прямої в просторі, що проходить через 2 точки
+		cout << "8: Angle between plane and line (alpha)" << endl;                                                 //8: Кут мiж площин. i прямою
+		cout << "9: Scalar equation of the plane ax+by+cz=d" << endl;											   //9: Скалярне рiвняня площини 
+	
 		int caser;
 		cin >> caser;
 		switch (caser) {
@@ -197,17 +199,41 @@ int main()
 			cin >> x >> y >> z;
 			system("cls");
 			double hangle;
-			hangle = asin(sqrt((x*x0 + y*y0 + z*z0)*(x*x0 + y*y0 + z*z0)) / sqrt(x*x + y*y + z*z)*sqrt(x0*x0 + y0*y0 + z0*z0))*180.0 / PI;
+			hangle = asin(sqrt((x*x0 + y*y0 + z*z0)*(x*x0 + y*y0 + z*z0)) / (sqrt(x*x + y*y + z*z)*sqrt(x0*x0 + y0*y0 + z0*z0))) * 180.0 / PI; // have some bugs :(
 			if (hangle == 90) {
 
-				cout << "Parallel";
+				cout << "Parallel"; // !
 			}
 			else if (hangle == 0) {
-				cout << "Perpendicular";
+				cout << "Perpendicular"; // !
 			}
 			else {
-				cout << "alpha = " << hangle;
+				cout << "alpha = " <<90-hangle;
 			}
+			break;
+		case 9: cout << "Give me vector coordinates A,B,C    "<<endl;
+			cin >> x0;
+			cin >> y0;
+			cin >> z0;
+			cout << "Point Coordinates x y z " << endl;
+			cin >> x >> y >> z;
+			k = x0*x + y0*y + z0*z;
+			 if (x0==0 || y0==0 || z0 == 0){
+				cout  <<"A or B or C = 0";
+			}
+			else if (x0 < 0 ||x0>0 && y0 < 0 && z0 < 0) {
+				cout << x0 << "x" << y0 << "y" << z0 << "z" << "=" << k;
+			}
+			else if (x0 < 0 || x0>0 && y0 > 0 && z0 < 0) {
+				cout << x0 << "x+" << y0 << "y" << z0 << "z" << "=" << k;
+			}
+			else if (x0 < 0 || x0>0 && y0 < 0 && z0 > 0) {
+				cout << x0 << "x" << y0 << "y+" << z0 << "z" << "=" << k;
+			}
+			else if ((x0 < 0) ||(x0>0) && (y0 > 0) && (z0 > 0)) {
+				cout << x0 << "x+" << y0 << "y+" << z0 << "z" << "=" << k;
+			}
+			else { cout << "warn"; }
 			break;
 		default:cout << "Select the existing number from the table, thank's!" << endl;
 			cout << "Try once more.";
