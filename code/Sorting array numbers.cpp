@@ -1,5 +1,5 @@
 #include <iostream>
- 
+ // 36
 using namespace std;
 
 int main(void) {
