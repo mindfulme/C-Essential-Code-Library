@@ -7,10 +7,10 @@
 using namespace std;
         // Let`s move out!
 int main(void) {
-	  // OOP class example for future problems
+	  // OOP a class example for future problems
 	 //+Encapsulating
     //+function call...etc...
-   //Start of class definition
+   //Start of the class definition
 	class Class {
 	public:
 		Class(void) { this->value = -1; }
@@ -21,13 +21,13 @@ int main(void) {
 		int value;
 		
 	}; 
-	//end of class definition
+	//end of the class definition
 	long value =-1;
 	Class obj1, obj2(200);		//identify objects
-	cout << "Give me any number, that has length < 10 (Example: 999999999 )"<<endl;
-	cin >> value;;			 //get input from user	
-	obj2.setVal(value);		//setting value to obj2
-	 cout <<"You give me number: "<< obj2.getVal() << endl;
+	cout << "Give me any number, that has a length < 10 (Example: 999999999 )"<<endl;
+	cin >> value;;			 //get an input from the user	
+	obj2.setVal(value);		//setting the value to obj2
+	 cout <<"Give me a number: "<< obj2.getVal() << endl;
 	cout <<"Default number in the class is "<<obj1.getVal() << endl;
 	getch();    //debug point
 	return 0;
