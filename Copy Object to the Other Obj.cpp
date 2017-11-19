@@ -1,5 +1,5 @@
-// Rostislav Gogolauri /C++/2017
-//eng version
+// Rostislav Gogolauri / 2017
+//
 
 #include "stdafx.h"
 #include <iostream>
