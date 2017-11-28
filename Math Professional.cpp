@@ -1,5 +1,4 @@
 ﻿// Written by Rostisval Gogolauri /2017//
-// Telegram @Map_Inc//
 
 #include "stdafx.h"
 #include <iostream>
