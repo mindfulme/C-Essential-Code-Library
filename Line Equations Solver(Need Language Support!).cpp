@@ -1,5 +1,5 @@
 ﻿// Written by Rostisval Gogolauri /2017/
-///
+/// it is an old solution, do not judge it so much
 
 #include "stdafx.h"
 #include <iostream>
