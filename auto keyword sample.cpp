@@ -1,5 +1,6 @@
 // Rostislav Gogolauri /C++/2017
 //eng version
+// auto seems to be same as without it in some environments
 
 #include "stdafx.h"
 #include <iostream>
