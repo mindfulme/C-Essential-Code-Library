@@ -1,0 +1,7 @@
+X:\Ready\12\task 12\bin\Debug\task 12.exe.config
+X:\Ready\12\task 12\bin\Debug\task 12.exe
+X:\Ready\12\task 12\bin\Debug\task 12.pdb
+X:\Ready\12\task 12\obj\Debug\task 12.csprojResolveAssemblyReference.cache
+X:\Ready\12\task 12\obj\Debug\task 12.csproj.CoreCompileInputs.cache
+X:\Ready\12\task 12\obj\Debug\task 12.exe
+X:\Ready\12\task 12\obj\Debug\task 12.pdb

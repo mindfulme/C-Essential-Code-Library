@@ -1,0 +1,14 @@
+X:\code\35\35\bin\Debug\35.exe.config
+X:\code\35\35\bin\Debug\35.exe
+X:\code\35\35\bin\Debug\35.pdb
+X:\code\35\35\obj\Debug\35.csprojResolveAssemblyReference.cache
+X:\code\35\35\obj\Debug\35.csproj.CoreCompileInputs.cache
+X:\code\35\35\obj\Debug\35.exe
+X:\code\35\35\obj\Debug\35.pdb
+X:\Ready\14\35\bin\Debug\35.exe.config
+X:\Ready\14\35\bin\Debug\35.exe
+X:\Ready\14\35\bin\Debug\35.pdb
+X:\Ready\14\35\obj\Debug\35.csprojResolveAssemblyReference.cache
+X:\Ready\14\35\obj\Debug\35.csproj.CoreCompileInputs.cache
+X:\Ready\14\35\obj\Debug\35.exe
+X:\Ready\14\35\obj\Debug\35.pdb
