@@ -1,7 +1,0 @@
-X:\code\task 13\task 13\bin\Debug\task 13.exe.config
-X:\code\task 13\task 13\bin\Debug\task 13.exe
-X:\code\task 13\task 13\bin\Debug\task 13.pdb
-X:\code\task 13\task 13\obj\Debug\task 13.csprojResolveAssemblyReference.cache
-X:\code\task 13\task 13\obj\Debug\task 13.csproj.CoreCompileInputs.cache
-X:\code\task 13\task 13\obj\Debug\task 13.exe
-X:\code\task 13\task 13\obj\Debug\task 13.pdb
