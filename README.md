@@ -1,5 +1,5 @@
-### There is a pack of useful algorithms in C/C++    etc...   ###    
-# Contributions:  
+# There is a pack of useful algorithms in C/C++    etc...   
+### Contributions:  
 To contribute I suggest you to write your own code and create a pull request directly to the "New" branch that already exist.              
 If you have no idea how to create a pull request read it       https://yangsu.github.io/pull-request-tutorial/     and it         https://help.github.com/articles/creating-a-pull-request/
 Thank's!                                  
