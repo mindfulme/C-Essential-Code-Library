@@ -4,5 +4,5 @@ In order to contribute, I suggest you to write your own code and create a pull r
 I will be glad, if you contribute a bit to the repository
 If you have no idea how to create a pull request read this       https://yangsu.github.io/pull-request-tutorial/     and this        https://help.github.com/articles/creating-a-pull-request/
 Thanks!                                  
-Or if you still need some help, please contact me  https://www.linkedin.com/in/mapinc/ thanks              Do not hesitate for asking me!
+Or if you still need some help, please contact me  https://www.linkedin.com/in/mapinc/ thanks              Do not hesitate to ask me!
 
